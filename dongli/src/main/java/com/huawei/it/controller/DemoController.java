@@ -11,11 +11,11 @@ public class DemoController {
 
 
     @GetMapping
-    public String test(){
+    public String test() {
         Date date = new Date();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String format = sdf.format(date);
-        return "ok , time is"+format;
+        return "ok , time is" + format;
     }
 
 }
