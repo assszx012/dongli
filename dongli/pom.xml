@@ -9,5 +9,14 @@
   <properties> 
     <maven.compiler.source>8</maven.compiler.source>  
     <maven.compiler.target>8</maven.compiler.target> 
-  </properties> 
+  </properties>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>5.2.6.RELEASE</version>
+    </dependency>
+  </dependencies>
 </project>
